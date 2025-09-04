@@ -10,8 +10,6 @@ Flight delays are one of the most costly and disruptive challenges in aviation, 
 
 The system integrates data from **2015, 2022, and 2023** (3M+ flight records) through a **Python ETL pipeline**, cleans and normalizes it into a **star schema**, and supports **OLAP queries** for multidimensional insights. Unlike short-term forecasting models, our solution emphasizes **longitudinal analysis**, uncovering **route-specific delay patterns** and operational bottlenecks.
 
-
-
 ## 🚀 Key Features
 
 * **ETL Pipeline (Python + Pandas):** Automated data extraction, cleaning, transformation, and loading into MySQL.
@@ -20,7 +18,7 @@ The system integrates data from **2015, 2022, and 2023** (3M+ flight records) th
 * **Interactive Dashboards (Power BI):** Visual exploration of delays by airline, route, year, and season.
 * **Scalable & Extensible:** Designed to integrate future datasets and predictive models.
 
----
+
 
 ## 🛠️ Tech Stack
 
