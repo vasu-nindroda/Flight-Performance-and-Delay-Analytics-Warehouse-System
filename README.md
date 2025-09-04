@@ -1,7 +1,3 @@
-# Flight-Performance-and-Delay-Analytics-Warehouse-System
-
-
-
 # ✈️ Flight Performance and Delay Analytics Warehouse System
 
 ## 📌 Overview
@@ -9,6 +5,8 @@
 Flight delays are one of the most costly and disruptive challenges in aviation, impacting both airlines and passengers. This project - **Flight Performance and Delay Analytics Warehouse System** - centralizes multi-year U.S. domestic flight data into a **MySQL-based data warehouse** and enables **interactive analytics** using **Power BI dashboards**.
 
 The system integrates data from **2015, 2022, and 2023** (3M+ flight records) through a **Python ETL pipeline**, cleans and normalizes it into a **star schema**, and supports **OLAP queries** for multidimensional insights. Unlike short-term forecasting models, our solution emphasizes **longitudinal analysis**, uncovering **route-specific delay patterns** and operational bottlenecks.
+
+
 
 ## 🚀 Key Features
 
@@ -27,7 +25,6 @@ The system integrates data from **2015, 2022, and 2023** (3M+ flight records) th
 * **Visualization:** Power BI
 * **Data Volume:** \~3 million+ flight records
 
----
 
 ## 📊 Results & Insights
 
@@ -36,7 +33,6 @@ The system integrates data from **2015, 2022, and 2023** (3M+ flight records) th
 * Achieved **sub-second query responses** with optimized schema design.
 * Dashboards enabled **dynamic filtering**, ranking worst routes, and visualizing geographic congestion.
 
----
 
 ## ⚠️ Limitations
 
@@ -44,7 +40,7 @@ The system integrates data from **2015, 2022, and 2023** (3M+ flight records) th
 * Excludes weather and airline-specific performance metrics.
 * Limited reliability for low-traffic routes due to sparse data.
 
----
+
 
 ## 🔮 Future Enhancements
 
@@ -53,7 +49,7 @@ The system integrates data from **2015, 2022, and 2023** (3M+ flight records) th
 * **Explainable ML models** for predictive delay analytics.
 * Mobile-friendly dashboards with **what-if simulations**.
 
----
+
 
 ## 👥 Contributors
 
